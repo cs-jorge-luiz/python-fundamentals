@@ -1,0 +1,148 @@
+################################
+PYTHON - AULA 01 - NOTAS DE AULA
+################################
+
+Python Sotfware Foundation
+
+PEP - Python Enhancement Proposals
+
+*PEP 0008 - Style Guide For Python Code
+
+Características
+===============
+- Linguagem Orientada a Objetos
+- Alto Nivel - Mais proximo da linguagem humana
+- Legivel
+- Pode-se utilizar Operadores
+- Suporta Modulos
+- Tipagem Dinamica - Não precisa definir o tipo da variavel para trabalhar com ela
+- Interpretada
+
+PYPI - Repositorio oficial de Modulos
+Ex: datetime, paramiko
+
+- Desenvolvida para qualquer proposito
+- Console Interativo
+- Web (Flask/Django/Bottle/Pyramid)
+- Programas (Gtk/Qt)
+
+Exemplos
+========
+
+print "<string>"
+
+variavel = raw_input("<string:pergunta>")
+
+if Condicao :
+	<resultado1>
+else:
+	<resultado2>
+
+
+Comentários
+==========
+
+# Esta linha esta comentada
+
+'''
+Todo este grupo esta
+comentado
+'''
+
+Variaveis e Constantes
+======================
+
+CONSTANTE = 3.14 (Sempre em Maiusculo)
+
+numero = 1
+
+decimal = 0.003
+
+texto = "4Linux Devops"
+
+dicionario = {"nome":"Guido","idade":59}
+
+lista = ["item1","item2",3,"quatro",3.14]
+
+tupla = (1,2,3,"Python")
+
+Regras Basicas para criação de Variáveis
+========================================
+- Nunca inicie o nome de variaveis por numero
+- Nunca utilize caracteres especiais, somente o underline (_)
+- Nunca utilize espacos em branco
+- Crie variaveis com nomes abreviados
+- Nao crie variaveis com nomes sem sentido dentro do codigo
+- Nao utilize letras maiusculas em variaveis
+
+Python Code Style (PEP-0008)
+===========================
+- A tabulacao devera ter 4 espacos (Sem tabs)
+- Limite de 79 caracteres por linha (84 no maximo)
+- Linhas muito longas sao quebradas por \
+- Alinhar os parenteses em caso de quebra de linha
+- As funcoes devem estar sempre 2 linhas abaixo da de cima
+- Nao usar espaco depois de abrir ou fechar um parenteses
+
+Modulo PEP8
+===========
+Comando: pep8 arquivo.py - Valida se o codigo foi digitado conforme a PEP8
+
+Strings - Caracteres de Escape
+==============================
+
+\n = Quebra de linha
+\rn = Quebra de linha MacOS
+\r = Quebra de linha Windows
+\\ = Imprime a propria barra
+\" = Imprime Aspas Duplas
+
+Utilize (+) para concatenar string e variaveis
+Utilize (,) para valores numericos
+
+
+INPUT
+=====
+
+raw_input - para strings
+input - para decimais, numeros
+
+
+Operadores
+==========
+
+mult *
+sum  +
+sub  -
+div  /
+mod  % (resto da divisao)
+
+Operadores Abreviados
+=====================
+
+num1 = num1 + 1 ==> num1 += 1
+num1 = num1 * 2 ==> num1 *= 2
+num1 = num1 - 1 ==> num1 -= 1
+num1 = num1 % 2 ==> num1 %= 2
+num1 = num1 / 2 ==> num1 /= 2
+
+Operadores Relacionais
+======================
+
+== 	 Igual
+!= ou <> Não Igual
+<	 Menor
+<=	 Menor ou Igual
+>	 Maior
+>=       Maior ou Igual
+is	 para valores Booleanos
+
+Operadores Logicos
+==================
+AND
+OR
+NOT
+==
+!=
+
+
