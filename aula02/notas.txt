@@ -1,0 +1,37 @@
+################################
+PYTHON - AULA 02 - NOTAS DE AULA
+################################
+
+if (condicao):
+ resultado1
+else:
+ resultado2
+
+ELSE IF(elif)
+==========================
+if (condicao1):
+ resultado1
+elif (condicao2):
+ resultado2
+else:
+ resultado3
+
+=====================================
+Python não tem SWITCH/CASE! (PEP3103)
+=====================================
+
+
+Casting
+=======
+Troca do tipo da variavel apos a declaracao inicial da variavel
+
+Ex:
+
+idade = "17"
+
+if int(idade) >= 18:
+	print "Acesso Liberado!"
+else:
+	print "Acesso Negado!"
+
+
