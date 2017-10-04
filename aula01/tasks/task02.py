@@ -32,6 +32,6 @@ login = raw_input("Digite seu login: ")
 senha = raw_input("Digite sua senha: ")
 
 if (login == user) and (senha == password):
-    print "Usuario Autenticado com sucesso! \nSeja Bem Vindo %s "%login
+    print "Usuario Autenticado com sucesso! \nSeja Bem Vindo %s " %login
 else:
     print "Acesso Negado!"

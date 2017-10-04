@@ -14,4 +14,4 @@ variaveis e utilizar dos comandos raw_input e print.
 login = raw_input("Digite seu login: ")
 password = raw_input("Digite sua senha: ")
 
-print "Seja Bem Vindo %s"%login
+print "Seja Bem Vindo %s" %login
