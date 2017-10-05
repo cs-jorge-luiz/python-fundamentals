@@ -8,7 +8,7 @@ else:
  resultado2
 
 ELSE IF(elif)
-==========================
+=============
 if (condicao1):
  resultado1
 elif (condicao2):
@@ -19,6 +19,17 @@ else:
 =====================================
 Python não tem SWITCH/CASE! (PEP3103)
 =====================================
+
+WHILE
+=====
+
+while (condicao):
+ funcao1
+
+
+=======================
+Python nao tem DO/WHILE
+=======================
 
 
 Casting
@@ -33,5 +44,38 @@ if int(idade) >= 18:
 	print "Acesso Liberado!"
 else:
 	print "Acesso Negado!"
+
+
+FOR
+===
+
+for item in lista:
+ print item
+
+for i in range(0,len(lista)):
+ print i
+
+
+BREAK
+=======
+Sai do laço de repeticão
+
+CONTINUE
+========
+Retorna ao inicio do laço
+
+LISTAS
+======
+Vetor de valores que podem ser do mesmo tipo ou nao
+
+animais = ["gato", "cachorro", "passarinho"]
+
+animais.append("boi") # Adiciona um item no final da lista
+animais.insert(2,"jerboa") # Adiciona um item na posicao 2 da lista
+animais.remove("gato") # remove item da lista
+animais.pop() # remove ultimo item da lista
+animais.pop(1) # remove item na posicao um da lista
+animais.index("passarinho") # mostra a posicao em que o item aparece na lista
+animais.reverse() #inverte a lista, os ultimos serao os primeiros
 
 
