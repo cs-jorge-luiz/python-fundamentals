@@ -31,8 +31,8 @@ while (opcao != "3"):
                 print "\nSenha Incorreta!"
                 break
             else:
-                print "Usuario nao encontrado!"
-                
+                print "Usuario nao encontrado"
+                break
     
     elif (opcao == "3"):
         print "Sistema encerrado. Fim do programa."

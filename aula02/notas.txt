@@ -78,4 +78,27 @@ animais.pop(1) # remove item na posicao um da lista
 animais.index("passarinho") # mostra a posicao em que o item aparece na lista
 animais.reverse() #inverte a lista, os ultimos serao os primeiros
 
+DICIONARIOS
+============
+Sao variaveis que armazenam dados do tipo chave:valor. Indispensaveis para o trabalhos com API's.
 
+usuario = {"login":"jorge","senha":"123"}
+
+print usuario["login"] = jorge
+
+produto = {
+	"nome":"Tenis"
+	"valor": 30,00,
+	"categoria":"calcados",
+	"marca":"Puma"}
+
+Podem ser usados em combinação com listas onde cada item da lista eh um dicionario do mesmo tipo.
+
+produtos = [produto1,produto2,...,produtoN]
+
+
+===========
+REVISAO
+===========
+Verificar com o Professor que na opção com dicionario, opção 2 de autenticacao 
+nunca vai cair no ultimo ELSE ("Usuario nao Encontrado")
