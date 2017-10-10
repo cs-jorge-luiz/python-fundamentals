@@ -26,6 +26,7 @@ WHILE
 while (condicao):
  funcao1
 
+while True: # é uma otima opcao de looping infinito
 
 =======================
 Python nao tem DO/WHILE

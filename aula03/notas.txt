@@ -1,0 +1,44 @@
+PYTHON - NOTAS DA AULA 03
+#########################
+
+
+FUNCOES
+=======
+É um trecho de codigo que tem como objetivo especifico encapsular uma estrutura unica que recebe parametros e retorna dados
+
+def nomeFuncao(paramentros):
+	comandos
+
+Os parametros podem ser obrigatorios ou nao e a funcao pode ou nao retornar valores.
+
+Parametros sao os valores esperados por uma funcao
+
+Argumentos sao os valores que passamos como paramentro (os valores propriamente ditos)
+
+COMPLEXIDADE CICLOMATICA
+========================
+Quanto maior a quantidade de IFs maior a complexidade da sua aplicação
+
+ESCOPO DAS VARIAVEIS
+====================
+Global - pode ser acessada por qualquer uma das funcoes
+
+def nomeFuncao(parametros):
+	global valor
+	return valor
+
+Local - so existe dentro da funcao em que foi definida
+
+PARAMETROS ESPECIAIS
+
+*args - utilizamos quando nao sabemos quantos valores serao passado como argumento
+**kwargs - utilizamos quando queremos passar um dicionario como argumento e nao sabemos a quantidade de valores no dicionario
+
+LAMBDA
+======
+Funcoes desse tipo podem ser definidas dentro de uma funcao, em uma so linha. 
+Ex:
+	var = lambda x: x*2
+	print var(2); # retorna 2*2
+
+Sao muito uteis para calculos matematicos
