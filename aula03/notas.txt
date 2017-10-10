@@ -42,3 +42,35 @@ Ex:
 	print var(2); # retorna 2*2
 
 Sao muito uteis para calculos matematicos
+	
+	print (v for v in lista if v % 2 = 0) # imprime se o numero for par - list comprehension
+
+EXCECOES
+========
+
+São comandos do Python para fazer o tratamento de erros.
+
+def insereDAO():
+	try:
+		faz_insert_no_banco()
+	except Exception e:
+		rollback()
+	finally:
+		fecha_conexao()
+
+
+def lerArquivo():
+	try:
+		with open("arquivo.txt","r") as f:
+			print f.read()
+	except Exception as e:
+		print "Arquivo nao existe %s"%e
+
+
+def escreveArquivo():
+        try:
+                with open("arquivo.txt","w") as f:
+                        f.write("Conteudo escrito no arquivo")
+        except Exception as e:
+                print "Falhou ao escrever no arquivo: %s"%e
+
