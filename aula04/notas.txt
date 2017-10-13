@@ -1,0 +1,42 @@
+PYTHON - NOTAS DA AULA 04
+#########################
+
+
+PYPI - Python Package Index
+===========================
+Repositorio oficial dos pacotes python
+
+
+https://pypi.python.org/pypi
+
+easy_install
+============
+
+Debian: 
+
+sudo apt-get install python-setuptools
+
+sudo easy_install pip
+
+
+PIP
+===
+
+Hoje é gerenciador de modulos do python mais usado.
+
+sudo pip install flask - instala um novo modulo
+
+sudo pip install flask --upgrade - atualiza a versão de um modulo ja instalado
+
+sudo pip search paramiko - procura todos os modulos com o nome paramiko
+
+sudo pip list - lista todos os modulos instalados
+
+Modulo Paramiko
+===============
+Modulo utilizado para fazer conexões SSH, que é muito utilizado no mundo DevOps
+É usado em conjunto com ferramentas Ansible e Fabric
+
+O SSH precisa que seja aceito o fingerprint quando acessamos o servidor pela primeira vez
+
+
