@@ -55,3 +55,24 @@ developer@developer:~/HandsOn/Aula04$ ssh-keygen -t rsa
 developer@developer:~/HandsOn/Aula04$ ssh-copy-id developer@192.168.0.2
 
 developer@developer:~/HandsOn/Aula04$ ssh 192.168.0.2
+
+Modulo DateTime
+===============
+Modulo utilizado para trabalhar com datas e horas
+
+from datetime import datetime,  -- retorna data e horario
+		     timedelta, -- calcula diferenca em dias
+		     date       -- retorna so a data
+
+print datetime.now() + timedelta(7)
+print date.today()
+
+Criando Modulos
+===============
+Um modulo nada mais eh do que um arquivo python com uma serie de funções
+
+from <pacote> import <arquivo>
+
+Na versao 2 do python é preciso criar um arquivo __init__.py no mesmo diretorio 
+
+ATENCAO! Cuidado ao nomear arquivo .py com nomes identicos a modulos ja instalados no sistema. Havera conflito!
