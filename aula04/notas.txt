@@ -39,4 +39,19 @@ Modulo utilizado para fazer conexões SSH, que é muito utilizado no mundo DevOp
 
 O SSH precisa que seja aceito o fingerprint quando acessamos o servidor pela primeira vez
 
+Configuração SSH
+================
 
+--Servidor DockerHost
+
+root@dockerhost:~# useradd -s /bin/bash -m --home /home/developer developer
+
+--Servidor Developer_BR
+
+developer@developer:~/HandsOn/Aula04$ ssh-keygen -t rsa
+
+developer@developer:~/HandsOn/Aula04$ ssh-keygen -t rsa
+
+developer@developer:~/HandsOn/Aula04$ ssh-copy-id developer@192.168.0.2
+
+developer@developer:~/HandsOn/Aula04$ ssh 192.168.0.2
