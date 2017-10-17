@@ -1,0 +1,46 @@
+PYTHON - NOTAS DA AULA 05
+#########################
+
+Um banco de dados é um local destinado a guardar para a extração de informações
+no futuro
+
+Na computação utilizamos as ferramentas SGBD para fazer o manuseio e gerenciamento dos dados
+
+Nos SGBDS os dados sao organizados em tabelas, colunas e linhas/tuplas
+
+Os bancos de dados opensource mais usados sao MySQL e PostgreSQL
+
+
+SQL
+---
+Linguagem de programação criada para gerenciar informações no SGBD
+
+DDL - Data Definition Language - CREATE, ALTER, DROP
+DML - Data Manipulation Language - INSERT, UPDATE, DELETE
+DQL - Data Query Language - SELECT, SHOW
+
+MYSQL
+------
+
+# mysql -u root -p
+
+mysql> show databases;
+
+mysql> create database python;
+
+mysql> use python;
+
+
+mysql> create table script(
+    -> id integer primary key auto_increment not null,
+    -> nome varchar(50) not null,
+    -> conteudo text not null );
+
+
+mysql> describe script;
+
+mysql> insert into script(nome, conteudo) values('hello.py','#!/usr/bin/python print "hello world"');
+
+mysql> delete from script where id = 1; remove os dados, mas mantem a ontagem da chave primaria
+
+mysql> truncate script; - zera o conteudo da tabela, inclusive a contagem da primary key
