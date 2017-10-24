@@ -2,13 +2,13 @@ PYTHON - NOTAS DA AULA 05
 #########################
 
 Um banco de dados é um local destinado a guardar para a extração de informações
-no futuro
+no futuro.
 
-Na computação utilizamos as ferramentas SGBD para fazer o manuseio e gerenciamento dos dados
+Na computação utilizamos as ferramentas SGBD para fazer o manuseio e gerenciamento dos dados.
 
-Nos SGBDS os dados sao organizados em tabelas, colunas e linhas/tuplas
+Nos SGBDS os dados sao organizados em tabelas, colunas e linhas/tuplas.
 
-Os bancos de dados opensource mais usados sao MySQL e PostgreSQL
+Os bancos de dados opensource mais usados sao MySQL e PostgreSQL.
 
 
 SQL
@@ -22,7 +22,7 @@ DQL - Data Query Language - SELECT, SHOW
 MYSQL
 ------
 
-# mysql -u root -p
+# sudo mysql -u root -p
 
 mysql> show databases;
 
@@ -44,3 +44,20 @@ mysql> insert into script(nome, conteudo) values('hello.py','#!/usr/bin/python p
 mysql> delete from script where id = 1; remove os dados, mas mantem a ontagem da chave primaria
 
 mysql> truncate script; - zera o conteudo da tabela, inclusive a contagem da primary key
+
+POSTGRESQL
+----------
+
+# sudo apt-get install postgresql
+
+sudo su - postgres
+
+psql - PostgreSQL client
+
+\l - show databases
+
+create user devops password '4linux'
+
+psql -U devops python -h 127.0.0.1 -W
+
+\d table - describe table
